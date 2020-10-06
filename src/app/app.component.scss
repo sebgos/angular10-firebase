@@ -4,11 +4,13 @@ h1 {
   margin-bottom: 0;
   font-size: 4em;
 }
+
 section {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   height: 100vh;
+
   @media screen and (min-width: 768px) {
     align-items: center;
   }
@@ -25,7 +27,6 @@ article {
   padding: 0;
   margin: 0;
   list-style: none;
-
   -ms-box-orient: horizontal;
   display: -webkit-box;
   display: -moz-box;
@@ -46,11 +47,13 @@ article {
 .flex-item {
   padding: 10px;
 }
+
 .data p {
   font-size: 1em;
   text-align: left;
   margin: 0.5em;
 }
+
 code {
   font-size: 0.5em;
 }
